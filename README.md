@@ -1,3 +1,17 @@
+Loading fork's pinba-wrapper branch:
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:maynagashev/pinba-phpdoc.git"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "misterion/pinba-phpdoc": "dev-pinba-wrapper"
+    }
+
+
 You need to add the path to a class of global include path.
 After that, your IDE, when IDE will display a hint on each pinba methods you write.
 
